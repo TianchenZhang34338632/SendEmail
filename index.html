@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brevo DNS Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Brevo DNS Validation</h1>
+    <p>Please verify the following DNS records:</p>
+    <ul>
+        <li><strong>TXT Record</strong>: <code>brevo-code:dc024efbf7fd035b3f1e0735b109cce9</code></li>
+        <li><strong>DKIM Record</strong>: <code>k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDeMVIzrCa3T14JsNY0IRv5/2V1/v2itlviLQBwXsa7shBD6TrBkswsFUToPyMRWC9tbR/5ey0nRBH0ZVxp+lsmTxid2Y2z+FApQ6ra2VsXfbJP3HE6wAO0YTVEJt1TmeczhEd2Jiz/fcabIISgXEdSpTYJhb0ct0VJRxcg4c8c7wIDAQAB</code></li>
+        <li><strong>DMARC Record</strong>: <code>v=DMARC1; p=none; rua=mailto:rua@dmarc.brevo.com</code></li>
+    </ul>
+    <p>After adding the records, you can use tools like <a href="https://mxtoolbox.com/">MXToolbox</a> to verify them.</p>
+</body>
+</html>
